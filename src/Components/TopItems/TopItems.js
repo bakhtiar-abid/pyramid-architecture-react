@@ -1,8 +1,12 @@
 import React from "react";
-import Navbar from "../NavBar/Navbar";
 import "./TopItems.css";
+import { useHistory } from "react-router-dom";
 
 const TopItems = () => {
+   const history = useHistory();
+   const handleClick = () => {
+      history.push("./services");
+   };
    return (
       <div>
          <div className="hero-image">
@@ -14,7 +18,7 @@ const TopItems = () => {
                   Explore these architectural lessons to see what tickles your
                   interest.
                </p>
-               <button>Get Started</button>
+               <button onClick={handleClick}>Get Started</button>
             </div>
          </div>
       </div>
@@ -22,12 +26,3 @@ const TopItems = () => {
 };
 
 export default TopItems;
-
-/* {
-   /* <div className="hero-image">
-            <div className="hero-text">
-               <h1 style={{ fontSize: "50px" }}>I am John Doe</h1>
-               <p>And I'm a Photographer</p>
-               <button>Hire me</button>
-            </div>
-         </div> */

@@ -65,7 +65,7 @@ const Navbar = () => {
                            className="nav-link"
                            to="/cart"
                         >
-                           Cart
+                           Cart <i class="bi bi-bag-check-fill"></i>
                         </Link>
                      </li>
                   </ul>
