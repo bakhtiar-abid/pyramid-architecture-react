@@ -8,6 +8,7 @@ import About from "./Components/About/About";
 import Cart from "./Components/Cart/Cart";
 import NotFound from "./Components/NotFound/NotFound";
 import { createContext, useEffect, useState } from "react";
+import ReviewOrder from "./Components/ReviewOrder/ReviewOrder";
 
 export const ServiceContext = createContext("services");
 
@@ -33,8 +34,8 @@ function App() {
                   <Route exact path="/about">
                      <About></About>
                   </Route>
-                  <Route exact path="/cart">
-                     <Cart></Cart>
+                  <Route exact path="/review">
+                     <ReviewOrder></ReviewOrder>
                   </Route>
                   <Route exact path="/">
                      <Home></Home>

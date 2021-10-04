@@ -32,7 +32,8 @@ const Service = (props) => {
                onClick={() => props.handleAddToCart(props.item)}
                className="btn-regular"
             >
-               <FontAwesomeIcon icon={faShoppingCart} /> add to cart
+               <i class="fas fa-cart-plus"></i>
+               add to cart
             </button>
          </div>
       </div>

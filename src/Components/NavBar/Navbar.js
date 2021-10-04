@@ -63,9 +63,9 @@ const Navbar = () => {
                         <Link
                            style={{ color: "#dddddd" }}
                            className="nav-link"
-                           to="/cart"
+                           to="/review"
                         >
-                           Cart <i className="bi bi-bag-check-fill"></i>
+                           Review
                         </Link>
                      </li>
                   </ul>
