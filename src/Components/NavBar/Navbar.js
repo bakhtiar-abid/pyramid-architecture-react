@@ -12,7 +12,7 @@ const Navbar = () => {
                <a
                   style={{ color: "#dddddd" }}
                   className="navbar-brand"
-                  href="#"
+                  href="/home"
                >
                   <h5>Pyramid Architecture</h5>
                </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
                            className="nav-link"
                            to="/about"
                         >
-                           About
+                           About Us
                         </Link>
                      </li>
                      <li className="nav-item me-2 ">
