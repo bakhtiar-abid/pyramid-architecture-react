@@ -1,0 +1,19 @@
+.logo img {
+   width: 100px;
+   background-color: transparent;
+}
+
+.link-style > ul > li > a:hover {
+   border: none;
+
+   display: inline-block;
+
+   color: black;
+   background-color: rgba(221, 221, 221, 0.329);
+   border-radius: 5px;
+   cursor: pointer;
+   color: white;
+}
+.link-style > ul > li > a {
+   color: white;
+}

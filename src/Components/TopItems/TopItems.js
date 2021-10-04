@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../NavBar/Navbar";
 import "./TopItems.css";
 
 const TopItems = () => {
