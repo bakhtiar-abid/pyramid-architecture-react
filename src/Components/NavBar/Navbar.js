@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
    return (
       <div>
-         <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container">
                <a
                   style={{ color: "#dddddd" }}

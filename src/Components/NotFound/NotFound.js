@@ -2,7 +2,7 @@ import React from "react";
 
 const NotFound = () => {
    return (
-      <div>
+      <div className="my-5">
          <h1>this is not found page</h1>
       </div>
    );

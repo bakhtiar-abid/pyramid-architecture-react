@@ -21,7 +21,7 @@ const Items = (props) => {
    // var month = d.getMonth() + 1; // Since getMonth() returns month from 0-11 not 1-12
    var year = d.getFullYear();
    const currentDate = date + " " + monthNames[d.getMonth()] + " " + year;
-   const { img, name, price, language, descp, category } = props.item;
+   const { img, name, price, language, descp, category } = props?.item || {};
    return (
       <div>
          <section className="cards-wrapper display-style">
@@ -37,27 +37,32 @@ const Items = (props) => {
                      <div>
                         <h4 className="text-dark my-3"> Title: {name} </h4>
                         <p className="text-dark">
-                           Descp: {descp.slice(0, 100)}...
+                           <span className="fw-bolder">Description: </span>
+                           {descp.slice(0, 100)}...
                         </p>
                         <div className="date text-dark "> {currentDate} </div>
                         <div>
                            {" "}
-                           <p>
-                              <span className="fw-bolder text-dark">
-                                 Price: ${price}{" "}
-                              </span>
+                           <p className="text-dark">
+                              <span className="fw-bolder">Price: </span> $
+                              {price}
                            </p>{" "}
                         </div>
                         <div>
                            {" "}
-                           <p>
+                           <p className="text-dark">
                               <span className="fw-bolder text-dark">
-                                 Language: {language}{" "}
+                                 Language:{" "}
                               </span>
+                              {language}
                            </p>{" "}
                         </div>
-
-                        <sup className="text-dark"> Category: {category} </sup>
+                        <p className="text-dark">
+                           <span className="fw-bolder text-dark">
+                              Category:{" "}
+                           </span>
+                           {category}
+                        </p>{" "}
                      </div>
                   }
                </a>
