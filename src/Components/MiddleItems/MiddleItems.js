@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ServiceContext } from "../../App";
-import Items from "../../Items/Items";
+import Items from "../Items/Items";
+
 import "./MiddleItems.css";
 
 const MiddleItems = () => {
