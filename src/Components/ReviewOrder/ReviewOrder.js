@@ -6,6 +6,7 @@ import useCart from "../CustomHooks/useCart";
 import useProducts from "../CustomHooks/useProducts";
 import ItemRemove from "../ItemRemove/ItemRemove";
 import removeFromDb from "../RemoveItem/RemoveItem";
+import "./ReviewOrder.css";
 
 const ReviewOrder = () => {
    const [products, setProducts] = useProducts();
@@ -27,7 +28,7 @@ const ReviewOrder = () => {
 
    return (
       <div className="shop-container">
-         <div className="product-container">
+         <div className="product-container ms-5 ">
             {cart.map((product) => (
                <ItemRemove
                   product={product}
@@ -36,7 +37,7 @@ const ReviewOrder = () => {
                ></ItemRemove>
             ))}
          </div>
-         <div className="cart-container">
+         <div className="cart-container my-5">
             <div></div>
             <Cart cart={cart}>
                <button onClick={handlePlaceOrder} className="btn-regular">

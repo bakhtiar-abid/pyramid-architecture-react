@@ -14,11 +14,11 @@ const Service = (props) => {
          </div>
          <div className="ms-4 mb-3">
             <h4 className="product-name">{name}</h4>
+            <p>Price: ${price}</p>
+            <p>Language: {language}</p>
             <p>
                <small>Category: {category}</small>
             </p>
-            <p>Price: ${price}</p>
-            <p>Language: {language}</p>
             <p>
                <small> Description: {descp}</small>
             </p>

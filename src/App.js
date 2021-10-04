@@ -10,6 +10,8 @@ import NotFound from "./Components/NotFound/NotFound";
 import { createContext, useEffect, useState } from "react";
 import ReviewOrder from "./Components/ReviewOrder/ReviewOrder";
 
+import PlaceOrder from "./Components/PlaceOrder/PlaceOrder";
+
 export const ServiceContext = createContext("services");
 
 function App() {
@@ -36,6 +38,9 @@ function App() {
                   </Route>
                   <Route exact path="/review">
                      <ReviewOrder></ReviewOrder>
+                  </Route>
+                  <Route path="/placeorder">
+                     <PlaceOrder></PlaceOrder>
                   </Route>
                   <Route exact path="/">
                      <Home></Home>
