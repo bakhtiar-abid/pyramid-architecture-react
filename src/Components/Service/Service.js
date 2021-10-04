@@ -34,7 +34,7 @@ const Service = (props) => {
             <br />
             <button
                onClick={() => props.handleAddToCart(props.item)}
-               className="btn-regular"
+               className="btn btn-primary my-4"
             >
                <i class="fas fa-cart-plus"></i>
                add to cart

@@ -40,7 +40,7 @@ const ReviewOrder = () => {
          <div className="cart-container my-5">
             <div></div>
             <Cart cart={cart}>
-               <button onClick={handlePlaceOrder} className="btn-regular">
+               <button onClick={handlePlaceOrder} className="btn btn-warning">
                   Place Order
                </button>
             </Cart>

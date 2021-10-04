@@ -84,7 +84,7 @@ const Services = () => {
             <div className="cart-container">
                <Cart cart={cart}>
                   <Link to="/review">
-                     <button className="btn-regular"> Review Order </button>
+                     <button className="btn btn-success"> Review Order </button>
                   </Link>
                </Cart>
             </div>

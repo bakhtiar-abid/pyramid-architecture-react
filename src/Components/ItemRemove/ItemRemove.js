@@ -31,7 +31,10 @@ const ItemRemove = (props) => {
             ></Rating>
             <br />
             <br />
-            <button onClick={() => hanldeRemove(key)} className="btn-regular">
+            <button
+               onClick={() => hanldeRemove(key)}
+               className="btn btn-danger"
+            >
                Remove
             </button>
          </div>

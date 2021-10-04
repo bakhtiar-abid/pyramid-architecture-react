@@ -28,7 +28,7 @@ const Items = (props) => {
             <div className="">
                <a
                   className="card"
-                  href=""
+                  href="/services"
                   style={{
                      backgroundImage: `url(${img})`,
                   }}
