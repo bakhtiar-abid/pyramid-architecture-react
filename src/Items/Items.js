@@ -57,7 +57,7 @@ const Items = (props) => {
                            </p>{" "}
                         </div>
 
-                        <small> Category: {category} </small>
+                        <sup className="text-dark"> Category: {category} </sup>
                      </div>
                   }
                </a>
