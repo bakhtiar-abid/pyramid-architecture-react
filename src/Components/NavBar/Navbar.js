@@ -65,7 +65,7 @@ const Navbar = () => {
                            className="nav-link"
                            to="/review"
                         >
-                           Review
+                           Review Order
                         </Link>
                      </li>
                   </ul>

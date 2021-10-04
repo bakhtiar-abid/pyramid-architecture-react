@@ -6,7 +6,7 @@ import "./Service.css";
 
 const Service = (props) => {
    const { name, price, star, language, duration, img, descp, category } =
-      props?.item;
+      props.item || {};
    return (
       <div className="product">
          <div>
@@ -18,6 +18,10 @@ const Service = (props) => {
                <small>Category: {category}</small>
             </p>
             <p>Price: ${price}</p>
+            <p>Language: {language}</p>
+            <p>
+               <small> Description: {descp}</small>
+            </p>
             <p>
                <small> Duration: {duration}</small>
             </p>

@@ -7,10 +7,16 @@ import Service from "../Service/Service";
 import "./Services.css";
 const Services = () => {
    const [services, setServices] = useContext(ServiceContext);
+
    const [cart, setCart] = useState([]);
    // products to be rendered on the UI
    const [displayProducts, setDisplayProducts] = useState([]);
-   console.log(services);
+
+   useEffect(() => {
+      fetch("./services.JSON")
+         .then((res) => res.json())
+         .then((data) => setDisplayProducts(data));
+   }, []);
 
    useEffect(() => {
       if (services.length) {
@@ -29,6 +35,7 @@ const Services = () => {
          setCart(storedCart);
       }
    }, [services]);
+
    const handleAddToCart = (product) => {
       const exists = cart.find((pd) => pd.key === product.key);
       let newCart = [];
@@ -42,7 +49,7 @@ const Services = () => {
       }
 
       setCart(newCart);
-      // save to local storage (for now)
+      // save to local storage
       addToDb(product.key);
    };
    /* implementing search results */
@@ -66,7 +73,7 @@ const Services = () => {
          </div>
          <div className="shop-container">
             <div className="item-container">
-               {services.map((item) => (
+               {displayProducts?.map((item) => (
                   <Service
                      key={item.key}
                      item={item}
