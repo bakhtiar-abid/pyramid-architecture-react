@@ -39,7 +39,7 @@ function App() {
                   <Route exact path="/review">
                      <ReviewOrder></ReviewOrder>
                   </Route>
-                  <Route path="/placeorder">
+                  <Route exact path="/placeorder">
                      <PlaceOrder></PlaceOrder>
                   </Route>
                   <Route exact path="/">

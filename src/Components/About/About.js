@@ -19,19 +19,14 @@ const About = () => {
                   global understanding to meet environmental and developmental
                   challenges. Its pedagogy aspires to empower students to
                   realize their full potential for serving local and global
-                  communities in need of improved conditions.
-               </p>
-            </div>
-            <div>
-               {" "}
-               <p>
-                  Pyramid Architecture develops tomorrow's professionals and
-                  critical thinkers via the development ethos of responsive,
-                  resilient, and inclusive built environments. environment. The
-                  Department pursues this objective. Interdisciplinary knowledge
-                  and abilities aimed at developing aesthetic, technical,
-                  social, and political dimensions worldwide cooperation to
-                  address environmental and developmental issues challenges. Its
+                  communities in need of improved conditions. Pyramid
+                  Architecture develops tomorrow's professionals and critical
+                  thinkers via the development ethos of responsive, resilient,
+                  and inclusive built environments. environment. The Department
+                  pursues this objective. Interdisciplinary knowledge and
+                  abilities aimed at developing aesthetic, technical, social,
+                  and political dimensions worldwide cooperation to address
+                  environmental and developmental issues challenges. Its
                   approach aims to provide students with the knowledge and
                   skills they need to succeed. Achieve their greatest potential.
                </p>
