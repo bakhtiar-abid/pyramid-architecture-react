@@ -7,13 +7,19 @@ import Services from "./Components/Services/Services";
 import About from "./Components/About/About";
 import Cart from "./Components/Cart/Cart";
 import NotFound from "./Components/NotFound/NotFound";
-import { createContext } from "react";
+import { createContext, useEffect, useState } from "react";
 
 export const ServiceContext = createContext("services");
 
 function App() {
+   const [services, setServices] = useState([]);
+   useEffect(() => {
+      fetch("./services.JSON")
+         .then((res) => res.json())
+         .then((data) => setServices(data));
+   }, []);
    return (
-      <ServiceContext.Provider>
+      <ServiceContext.Provider value={[services, setServices]}>
          <div>
             <Router>
                <Header></Header>

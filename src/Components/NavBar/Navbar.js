@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
    return (
       <div>
-         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+         <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
             <div className="container">
                <a
                   style={{ color: "#dddddd" }}
@@ -65,7 +65,7 @@ const Navbar = () => {
                            className="nav-link"
                            to="/cart"
                         >
-                           Cart <i class="bi bi-bag-check-fill"></i>
+                           Cart <i className="bi bi-bag-check-fill"></i>
                         </Link>
                      </li>
                   </ul>

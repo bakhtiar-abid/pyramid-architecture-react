@@ -5,7 +5,7 @@ import aboutBg from "../../images/about-us.jpg";
 const About = () => {
    return (
       <div className="bg-syle">
-         <h1 className="about-us">About Us</h1>
+         <h1 className="about-us py-5">About Us</h1>
          <div style={{ display: "flex", margin: "50px" }}>
             {" "}
             <div>

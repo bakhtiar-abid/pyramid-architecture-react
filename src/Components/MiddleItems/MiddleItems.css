@@ -1,0 +1,18 @@
+.cards-wrapper {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 20px;
+
+   margin: 30px;
+}
+
+body {
+   scroll-behavior: smooth;
+}
+
+.bg-image {
+   background-image: url("../../images/pexels-photo-3104234.jpeg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}

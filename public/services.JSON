@@ -1,7 +1,7 @@
 [
    {
       "key": "101",
-      "category": "beginner",
+      "category": "Beginner",
       "name": "Making Architecture",
       "price": 36,
       "star": 4.8,
@@ -12,7 +12,7 @@
    },
    {
       "key": "102",
-      "category": "beginner",
+      "category": "Beginner",
       "name": "Innovation Through Design: Think, Make, Break, Repeat",
       "price": 30,
       "star": 4.8,
@@ -23,7 +23,7 @@
    },
    {
       "key": "103",
-      "category": "beginner",
+      "category": "Beginner",
       "name": "Roman Architecture",
       "star": 4.9,
       "price": 25,
@@ -45,7 +45,7 @@
    },
    {
       "key": "105",
-      "category": "mixed",
+      "category": "Mixed",
       "name": "Autodesk Certified Professional: AutoCAD for Design and Drafting Exam Prep",
       "price": 35,
       "language": "English",
@@ -89,9 +89,10 @@
    },
    {
       "key": "109",
-      "category": "intermediate",
+      "category": "Intermediate",
       "name": "BIM: from sketch to digital twin",
       "price": 36,
+      "star": 4.5,
       "language": "English",
       "duration": "Approx. 27 hours to complete",
       "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/05/c364f689dd4ad7a7c25d8b41ea839b/1_Photo---1---Ekaterina-Korobova_800px.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&q=25&fit=fill&bg=FFF",
@@ -99,12 +100,13 @@
    },
    {
       "key": "110",
-      "category": "intermediate",
+      "category": "Advanced",
       "name": "Reimagining Blackness and Architecture",
       "price": 28,
+      "star": 4.8,
       "language": "English",
       "duration": "Approx. 14 hours to complete",
-      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ca/2a6d60435811e6bdc8db7edb16e358/imagen-promo_4.png?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF&q=25",
-      "descp": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ac/c262364e35441dbbcd453189f96d15/241_2019_RICR-Full-size-JPEG.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&q=25&fit=fill&bg=FFF "
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ac/c262364e35441dbbcd453189f96d15/241_2019_RICR-Full-size-JPEG.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&q=25&fit=fill&bg=FFF",
+      "descp": "Architecture structures our daily lives. It shapes our homes, streets, neighborhoods, cities and more. But who gets to create and occupy these spaces? In the United States, a long history of anti-Black racism has created spatial inequalities that are built into the physical environment and erased the stories of Black architects and communities. "
    }
 ]

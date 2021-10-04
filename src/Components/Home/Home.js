@@ -1,12 +1,14 @@
 import React from "react";
-import Header from "../Header/Header";
-import Services from "../Services/Services";
+
+import MiddleItems from "../MiddleItems/MiddleItems";
+
 import TopItems from "../TopItems/TopItems";
 
 const Home = () => {
    return (
       <div>
          <TopItems></TopItems>
+         <MiddleItems></MiddleItems>
       </div>
    );
 };
