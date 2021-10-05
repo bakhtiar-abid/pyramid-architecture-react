@@ -1,0 +1,10 @@
+.contact-style {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url("../../images/banner-bg.jpeg");
+   background-repeat: no-repeat;
+   background-position: cover;
+
+   padding: 250px;
+}

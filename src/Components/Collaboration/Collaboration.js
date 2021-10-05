@@ -4,7 +4,7 @@ import "./Collaboration.css";
 
 const Collaboration = () => {
    return (
-      <div className="collaboration-style bg-black p-5 my-5">
+      <div className="collaboration-style bg-dark p-5 my-5">
          <div>
             <h3 className="text-white">About Collaboration</h3>
             <p className="text-white">
