@@ -11,7 +11,7 @@ const MiddleItems = () => {
       <div className="bg-image">
          <div className="cards-wrapper">
             {services?.slice(0, 4)?.map((item) => (
-               <Items item={item}></Items>
+               <Items key={item.key} item={item}></Items>
             ))}
          </div>
       </div>
