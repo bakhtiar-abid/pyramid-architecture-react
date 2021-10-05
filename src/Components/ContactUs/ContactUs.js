@@ -59,7 +59,7 @@ const ContactUs = () => {
                   ></textarea>
                   <br />
                   <div className="text-center">
-                     <button className="btn btn-info m-3 ps-5 pe-5">
+                     <button className="btn btn-info m-3 ps-5 pe-5  ">
                         Submit
                      </button>
                   </div>
